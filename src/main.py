@@ -1,2 +1,12 @@
 import streamlit as st
-st.write("Hola mundo de nuevo")
+
+def displayPage ():
+   text = "Hola mundo de nuevo"
+   st.write(text)
+
+def main():
+   displayPage()
+   
+if __name__ = "__main__"   
+  main()
+
